@@ -1,0 +1,5 @@
+SELECT field1, field2, field3 FROM mytable
+INTO OUTFILE '/tmp/myoutputfile.csv'
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
